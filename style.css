@@ -1,0 +1,54 @@
+#topo{
+    background: #6b49da;
+    color:#000000;
+    display:flex;
+    justify-content: space-around;
+}
+a{
+padding:30px;
+color:white;
+}
+a:visited{
+    color:lightgrey;
+}
+a:hover{
+color:#00a6ff
+}
+#games{
+    background: #ffff32;
+    color:#de7e00;
+    display: flex;
+    justify-content: space-around;
+}
+ img{
+width:300px;
+height:280px;
+}
+
+.item{
+    position:relative;
+}
+
+.item h2{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 0px 0px 2px black;
+    opacity:0;
+}
+
+.item:hover h2{
+    opacity: 1;
+}
+
+.item:hover{
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+#rodape{
+    background: #8800ff;
+    color:#ff0000
+};
+
